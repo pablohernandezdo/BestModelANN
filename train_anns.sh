@@ -44,7 +44,7 @@ python train.py \
         --model_name ANN_6k_6k_1e5_256 \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
-        --val_path "Data/TrainReady/Val_constant.npy"
+        --val_path "Data/TrainReady/Val_constant.npy" &
 
 P3=$!
 
