@@ -74,7 +74,7 @@ def evaluate_dataset(dset_npy, dataset_name, device, net,
     # List of outputs and labels used to create pd dataframe
     dataframe_rows_list = []
 
-    with tqdm.tqdm(total=len(data_loader),
+    with tqdm.tqdm(total=len(dset_npy),
                    desc=f'{dataset_name} dataset evaluation') as data_bar:
 
         with torch.no_grad():
