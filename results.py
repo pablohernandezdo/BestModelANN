@@ -31,7 +31,8 @@ def get_results(outputs_csv, dset, beta, n_thresholds=500):
                                                                  tn,
                                                                  fn,
                                                                  beta)
-    res_dframe = pd.DataFrame({'acc': acc,
+    res_dframe = pd.DataFrame({'thresholds': thresholds,
+                               'acc': acc,
                                'prec': prec,
                                'rec': rec,
                                'fpr': fpr,
