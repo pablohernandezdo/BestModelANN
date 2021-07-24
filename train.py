@@ -38,7 +38,7 @@ def main():
                         help="HDF5 validation Dataset path")
     parser.add_argument("--device", type=int, default=3,
                         help="Training gpu device")
-    parser.add_argument("--workers", type=int, default=4,
+    parser.add_argument("--workers", type=int, default=0,
                         help="Dataloader num workers")
     parser.add_argument("--epochs", type=int, default=1,
                         help="Number of training epochs")
