@@ -66,14 +66,14 @@ def main():
     train_loader = DataLoader(train_set,
                               batch_size=args.batch_size,
                               shuffle=True,
-                              num_workers=8)
+                              num_workers=0)
 
     # Validation dataset
     val_set = NpyDataset(args.val_path)
     val_loader = DataLoader(val_set,
                             batch_size=args.batch_size,
                             shuffle=True,
-                            num_workers=8)
+                            num_workers=0)
 
     # Load specified Classifier
     net = get_classifier(args.classifier)
