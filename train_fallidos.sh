@@ -18,9 +18,9 @@ python train.py \
 
 P1=$!
 
-echo "Training model Ann_4k_4k, lr = 1e-4, epochs = 30, batch_size = 256"
+echo "Training model Ann_4k_4k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
-        --lr 1e-4 \
+        --lr 1e-3 \
         --device 2 \
         --epochs 20 \
         --batch_size 256 \
@@ -28,7 +28,7 @@ python train.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier ANN_4k_4k \
-        --model_name ANN_4k_4k_1e4_256 \
+        --model_name ANN_4k_4k_1e3_256 \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/train_zeros.npy" \
         --val_path "Data/TrainReady/val_zeros.npy" &
