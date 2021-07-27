@@ -9,7 +9,7 @@ python train.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier ANN_3k_1k \
-        --model_name ANN_1k_1k_30epch \
+        --model_name ANN_3k_1k_30epch \
         --dataset_name "STEAD" \
-        --train_path "Data/TrainReady/Extracto-STEAD_0.8_train.npy" \
-        --val_path "Data/TrainReady/Extracto-STEAD_0.1_val.npy"
+        --train_path "Data/TrainReady/train_zeros.npy" \
+        --val_path "Data/TrainReady/val_zeros.npy"
