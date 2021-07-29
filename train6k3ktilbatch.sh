@@ -11,7 +11,7 @@ python train_til_batch.py \
         --earlystop 0 \
         --eval_iter 30 \
         --model_folder 'modelos_batches'  \
-        --classifier ANN \
+        --classifier ANN_6k_3k \
         --model_name ANN_6k_3k_1e5_256 \
         --dataset_name "STEAD" \
         --train_path "Data/TrainReady/train_zeros.npy" \
