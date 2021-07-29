@@ -5,7 +5,7 @@ echo "Training model Ann_6k_6k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -22,7 +22,7 @@ echo "Training model Ann_6k_6k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -39,7 +39,7 @@ echo "Training model Ann_6k_6k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -57,7 +57,7 @@ echo "Training model Ann_6k_5k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -74,7 +74,7 @@ echo "Training model Ann_6k_5k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -91,7 +91,7 @@ echo "Training model Ann_6k_5k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -110,7 +110,7 @@ echo "Training model Ann_6k_4k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -127,7 +127,7 @@ echo "Training model Ann_6k_4k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -144,7 +144,7 @@ echo "Training model Ann_6k_4k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -162,7 +162,7 @@ echo "Training model Ann_6k_3k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -179,7 +179,7 @@ echo "Training model Ann_6k_3k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -196,7 +196,7 @@ echo "Training model Ann_6k_3k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -215,7 +215,7 @@ echo "Training model Ann_6k_2k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -232,7 +232,7 @@ echo "Training model Ann_6k_2k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -249,7 +249,7 @@ echo "Training model Ann_6k_2k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -267,7 +267,7 @@ echo "Training model Ann_6k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -284,7 +284,7 @@ echo "Training model Ann_6k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -301,7 +301,7 @@ echo "Training model Ann_6k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -320,7 +320,7 @@ echo "Training model Ann_5k_5k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -337,7 +337,7 @@ echo "Training model Ann_5k_5k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -354,7 +354,7 @@ echo "Training model Ann_5k_5k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -372,7 +372,7 @@ echo "Training model Ann_5k_4k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -389,7 +389,7 @@ echo "Training model Ann_5k_4k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -406,7 +406,7 @@ echo "Training model Ann_5k_4k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -425,7 +425,7 @@ echo "Training model Ann_5k_3k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -442,7 +442,7 @@ echo "Training model Ann_5k_3k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -459,7 +459,7 @@ echo "Training model Ann_5k_3k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -477,7 +477,7 @@ echo "Training model Ann_5k_2k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -494,7 +494,7 @@ echo "Training model Ann_5k_2k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -511,7 +511,7 @@ echo "Training model Ann_5k_2k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -530,7 +530,7 @@ echo "Training model Ann_5k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -547,7 +547,7 @@ echo "Training model Ann_5k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -564,7 +564,7 @@ echo "Training model Ann_5k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -582,7 +582,7 @@ echo "Training model Ann_4k_4k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -599,7 +599,7 @@ echo "Training model Ann_4k_4k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -616,7 +616,7 @@ echo "Training model Ann_4k_4k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -635,7 +635,7 @@ echo "Training model Ann_4k_3k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -652,7 +652,7 @@ echo "Training model Ann_4k_3k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -669,7 +669,7 @@ echo "Training model Ann_4k_3k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -687,7 +687,7 @@ echo "Training model Ann_4k_2k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -704,7 +704,7 @@ echo "Training model Ann_4k_2k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -721,7 +721,7 @@ echo "Training model Ann_4k_2k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -740,7 +740,7 @@ echo "Training model Ann_4k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -757,7 +757,7 @@ echo "Training model Ann_4k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -774,7 +774,7 @@ echo "Training model Ann_4k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -792,7 +792,7 @@ echo "Training model Ann_3k_3k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -809,7 +809,7 @@ echo "Training model Ann_3k_3k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -826,7 +826,7 @@ echo "Training model Ann_3k_3k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -845,7 +845,7 @@ echo "Training model Ann_3k_2k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -862,7 +862,7 @@ echo "Training model Ann_3k_2k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -879,7 +879,7 @@ echo "Training model Ann_3k_2k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -897,7 +897,7 @@ echo "Training model Ann_3k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -914,7 +914,7 @@ echo "Training model Ann_3k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -931,7 +931,7 @@ echo "Training model Ann_3k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -950,7 +950,7 @@ echo "Training model Ann_2k_2k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -967,7 +967,7 @@ echo "Training model Ann_2k_2k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -984,7 +984,7 @@ echo "Training model Ann_2k_2k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1002,7 +1002,7 @@ echo "Training model Ann_2k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1019,7 +1019,7 @@ echo "Training model Ann_2k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1036,7 +1036,7 @@ echo "Training model Ann_2k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1055,7 +1055,7 @@ echo "Training model Ann_1k_1k, lr = 1e-3, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-3 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1072,7 +1072,7 @@ echo "Training model Ann_1k_1k, lr = 1e-4, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-4 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
@@ -1089,7 +1089,7 @@ echo "Training model Ann_1k_1k, lr = 1e-5, epochs = 30, batch_size = 256"
 python train.py \
         --lr 1e-5 \
         --device 2 \
-        --epochs 20 \
+        --epochs 30 \
         --batch_size 256 \
         --earlystop 0 \
         --eval_iter 30 \
