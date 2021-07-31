@@ -3,7 +3,7 @@
 # ANN_6K_6K
 echo "Training model Ann_6k_6k, lr = 1e-6, epochs = 50, batch_size = 256"
 python train_fsc.py \
-        --lr 1e-3 \
+        --lr 1e-6 \
         --device 2 \
         --epochs 50 \
         --batch_size 256 \
