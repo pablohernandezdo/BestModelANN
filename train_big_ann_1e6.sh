@@ -11,7 +11,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier ANN_6k_6k \
-        --model_name ANN_6k_6k_1e3_256_fsc_50epch \
+        --model_name ANN_6k_6k_1e6_256_fsc_50epch \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/train_zeros.npy" \
         --val_path "Data/TrainReady/val_zeros.npy" 
